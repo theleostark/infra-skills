@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GenerativeContentCard",
+  "type": "object",
+  "required": ["id", "status", "source_event_ids", "hook", "angle", "draft"],
+  "properties": {
+    "id": {"type": "string"},
+    "status": {"type": "string", "enum": ["inbox", "triaged", "drafting", "review", "ready", "published", "archived"]},
+    "source_event_ids": {"type": "array", "items": {"type": "string"}},
+    "channel": {"type": "string", "description": "x, linkedin, work-update, email, deck, note"},
+    "audience": {"type": "string"},
+    "hook": {"type": "string"},
+    "angle": {"type": "string"},
+    "claim": {"type": ["string", "null"]},
+    "evidence_links": {"type": "array", "items": {"type": "string"}},
+    "draft": {"type": "string"},
+    "risk_flags": {"type": "array", "items": {"type": "string"}},
+    "review_notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

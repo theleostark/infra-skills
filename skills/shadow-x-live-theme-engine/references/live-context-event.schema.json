@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LiveContextEvent",
+  "type": "object",
+  "required": ["id", "captured_at", "source", "domain", "summary", "evidence"],
+  "properties": {
+    "id": {"type": "string"},
+    "captured_at": {"type": "string", "format": "date-time"},
+    "source": {"type": "string", "description": "x_api, outlook, teams, calendar, score_api, market_api, manual, browser, file"},
+    "domain": {"type": "string", "description": "work, x, live_score, market, incident, content, research"},
+    "program": {"type": ["string", "null"]},
+    "entity": {"type": ["string", "null"], "description": "ticker, team, person, project, account, topic"},
+    "summary": {"type": "string"},
+    "raw_text": {"type": ["string", "null"]},
+    "evidence": {"type": "array", "items": {"type": "object"}},
+    "signals": {"type": "object"},
+    "urgency": {"type": "string", "enum": ["low", "medium", "high", "critical"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "next_actions": {"type": "array", "items": {"type": "string"}},
+    "visibility": {"type": "string", "enum": ["private", "work", "public", "draft"]}
+  }
+}

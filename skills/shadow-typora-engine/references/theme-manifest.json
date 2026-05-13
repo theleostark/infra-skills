@@ -1,0 +1,198 @@
+{
+  "schema": "shadow-typora-theme-manifest-v1",
+  "created_at": "2026-05-02T16:11:30.232632+00:00",
+  "canonical_grammar": "shadow-typora.<role>.<surface>.<mode>.<polarity>.<base>.<version>.css",
+  "themes": [
+    {
+      "id": "shadow-typora.vendor.work.work.light.astemo.snapshot",
+      "original_file": "astemo.css",
+      "role": "vendor",
+      "surface": "work",
+      "mode": "work",
+      "polarity": "light",
+      "base": "astemo",
+      "sha256_16": "004a18bea0d80480",
+      "selectors": 75,
+      "color_count": 23,
+      "imports": [],
+      "mutable": false,
+      "safe_to_overwrite": false,
+      "notes": "work/branded"
+    },
+    {
+      "id": "shadow-typora.vendor.review.neutral.light.github.snapshot",
+      "original_file": "github.css",
+      "role": "vendor",
+      "surface": "review",
+      "mode": "neutral",
+      "polarity": "light",
+      "base": "github",
+      "sha256_16": "0225b3c456252023",
+      "selectors": 82,
+      "color_count": 26,
+      "imports": [],
+      "mutable": false,
+      "safe_to_overwrite": false,
+      "notes": "light/neutral"
+    },
+    {
+      "id": "shadow-typora.vendor.read.calm.print.gothic.snapshot",
+      "original_file": "gothic.css",
+      "role": "vendor",
+      "surface": "read",
+      "mode": "calm",
+      "polarity": "print",
+      "base": "gothic",
+      "sha256_16": "bfdc69b8ea083ca1",
+      "selectors": 78,
+      "color_count": 16,
+      "imports": [],
+      "mutable": false,
+      "safe_to_overwrite": false,
+      "notes": "editorial/reading"
+    },
+    {
+      "id": "shadow-typora.vendor.write.focus.light.kami.snapshot",
+      "original_file": "kami.css",
+      "role": "vendor",
+      "surface": "write",
+      "mode": "focus",
+      "polarity": "light",
+      "base": "kami",
+      "sha256_16": "bd09288bf3c962fd",
+      "selectors": 61,
+      "color_count": 17,
+      "imports": [],
+      "mutable": false,
+      "safe_to_overwrite": false,
+      "notes": "dark/focus"
+    },
+    {
+      "id": "shadow-typora.vendor.read.calm.print.newsprint.snapshot",
+      "original_file": "newsprint.css",
+      "role": "vendor",
+      "surface": "read",
+      "mode": "calm",
+      "polarity": "print",
+      "base": "newsprint",
+      "sha256_16": "74f8e327abb48ac3",
+      "selectors": 115,
+      "color_count": 26,
+      "imports": [],
+      "mutable": false,
+      "safe_to_overwrite": false,
+      "notes": "editorial/reading"
+    },
+    {
+      "id": "shadow-typora.vendor.code.focus.dark.night.snapshot",
+      "original_file": "night.css",
+      "role": "vendor",
+      "surface": "code",
+      "mode": "focus",
+      "polarity": "dark",
+      "base": "night",
+      "sha256_16": "dd6b77753ff00a78",
+      "selectors": 185,
+      "color_count": 60,
+      "imports": [
+        "night/mermaid.dark.css",
+        "night/codeblock.dark.css",
+        "night/sourcemode.dark.css",
+        "shadow-x-inject.css"
+      ],
+      "mutable": false,
+      "safe_to_overwrite": false,
+      "notes": "dark/focus"
+    },
+    {
+      "id": "shadow-typora.vendor.read.calm.print.pixyll.snapshot",
+      "original_file": "pixyll.css",
+      "role": "vendor",
+      "surface": "read",
+      "mode": "calm",
+      "polarity": "print",
+      "base": "pixyll",
+      "sha256_16": "90e27bc256d6ce61",
+      "selectors": 93,
+      "color_count": 15,
+      "imports": [],
+      "mutable": false,
+      "safe_to_overwrite": false,
+      "notes": "editorial/reading"
+    },
+    {
+      "id": "shadow-typora.inject.live.watch.dark.night.snapshot",
+      "original_file": "shadow-x-inject.css",
+      "role": "inject",
+      "surface": "live",
+      "mode": "watch",
+      "polarity": "dark",
+      "base": "night",
+      "sha256_16": "e7492cb2f2617562",
+      "selectors": 25,
+      "color_count": 35,
+      "imports": [],
+      "mutable": false,
+      "safe_to_overwrite": false,
+      "notes": "dark/focus"
+    },
+    {
+      "id": "shadow-typora.base.live.watch.dark.none.snapshot",
+      "original_file": "shadow-x.css",
+      "role": "base",
+      "surface": "live",
+      "mode": "watch",
+      "polarity": "dark",
+      "base": "none",
+      "sha256_16": "1c8f1957ced45a5f",
+      "selectors": 20,
+      "color_count": 17,
+      "imports": [],
+      "mutable": false,
+      "safe_to_overwrite": false,
+      "notes": "dark/focus"
+    },
+    {
+      "id": "shadow-typora.vendor.publish.neutral.light.whitey.snapshot",
+      "original_file": "whitey.css",
+      "role": "vendor",
+      "surface": "publish",
+      "mode": "neutral",
+      "polarity": "light",
+      "base": "whitey",
+      "sha256_16": "93b2c21baa15b08f",
+      "selectors": 57,
+      "color_count": 14,
+      "imports": [],
+      "mutable": false,
+      "safe_to_overwrite": false,
+      "notes": "light/neutral"
+    }
+  ],
+  "aliases": [
+    {
+      "alias": "Shadow Watch",
+      "target": "shadow-typora.generated.live.watch.dark.night.current.css"
+    },
+    {
+      "alias": "Shadow Focus",
+      "target": "shadow-typora.generated.work.focus.dark.night.current.css"
+    },
+    {
+      "alias": "Shadow Review",
+      "target": "shadow-typora.generated.review.review.dark.night.current.css"
+    },
+    {
+      "alias": "Shadow Urgent",
+      "target": "shadow-typora.generated.live.urgent.dark.night.current.css"
+    },
+    {
+      "alias": "Shadow Work",
+      "target": "shadow-typora.generated.work.work.light.astemo.current.css"
+    },
+    {
+      "alias": "Shadow Publish",
+      "target": "shadow-typora.generated.publish.publish.light.github.current.css"
+    }
+  ]
+}
