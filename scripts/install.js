@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+console.log('');
+console.log('====================================');
+console.log('  infra-skills v1.0.0');
+console.log('  35 infrastructure & device skills');
+console.log('====================================');
+console.log('');
+console.log('✓ Installed!');
+console.log('');
+console.log('Mesh: mesh-ops, mesh-audit, mesh-scanner, mesh-security,');
+console.log('  mesh-context, tailscale-mesh');
+console.log('Cloud: oracle-cloud, cloud-drive-routing, storage-ops, here-now');
+console.log('Device: cua-driver, shadow-adb, shadow-airplay-skill,');
+console.log('  shadow-clone, echo-loop, xteink-firmware, trmnl-plugin-dev');
+console.log('Terminal: shadow-tui, shadow-cast-cli, iterm-mesh, shadow-term,');
+console.log('  friday-hud, friday-unified, nnn-cli');
+console.log('Security: bitwarden-browser, ai-fi-manager, shadow-connect');
+console.log('System: disk-guard, mole, launchd-mise-service,');
+console.log('  shadow-os-skills, async-boundary-queue, clawhip');
+console.log('');
+console.log('https://github.com/theleostark/infra-skills');
+console.log('');

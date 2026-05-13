@@ -1,0 +1,18 @@
+{
+  "name": "infra-skills",
+  "description": "35 agent skills for infrastructure, mesh networking, device control, and OS automation.",
+  "version": "1.0.0",
+  "skills": [
+    "./skills/mesh-ops","./skills/mesh-audit","./skills/mesh-scanner","./skills/mesh-security",
+    "./skills/mesh-context","./skills/tailscale-mesh","./skills/oracle-cloud",
+    "./skills/cloud-drive-routing","./skills/storage-ops","./skills/here-now",
+    "./skills/cua-driver","./skills/shadow-adb","./skills/shadow-airplay-skill",
+    "./skills/shadow-clone","./skills/echo-loop","./skills/xteink-firmware",
+    "./skills/trmnl-plugin-dev","./skills/shadow-tui","./skills/shadow-cast-cli",
+    "./skills/iterm-mesh","./skills/shadow-term","./skills/friday-hud",
+    "./skills/friday-unified","./skills/nnn-cli","./skills/bitwarden-browser",
+    "./skills/ai-fi-manager","./skills/shadow-connect","./skills/disk-guard",
+    "./skills/mole","./skills/launchd-mise-service","./skills/shadow-os-skills",
+    "./skills/async-boundary-queue","./skills/clawhip"
+  ]
+}

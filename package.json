@@ -1,0 +1,11 @@
+{
+  "name": "infra-skills",
+  "version": "1.0.0",
+  "description": "Agent skills for infrastructure, mesh networking, device control, and OS-level automation.",
+  "files": ["skills/", ".claude-plugin/", "guides/", "README.md"],
+  "scripts": { "postinstall": "node scripts/install.js" },
+  "keywords": ["agent-skills", "infrastructure", "mesh", "tailscale", "device-control", "craft-agent"],
+  "author": "theleostark",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/theleostark/infra-skills.git" }
+}
