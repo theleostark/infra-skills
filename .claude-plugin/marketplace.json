@@ -67,5 +67,5 @@
     "./skills/tailscale-mesh",
     "./skills/trmnl-plugin-dev",
     "./skills/xteink-firmware"
-]
+  ]
 }
